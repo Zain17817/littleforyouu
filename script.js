@@ -32,10 +32,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 
                 updateStack();
 
-                // Jika mencapai frame terakhir (Best wishes)
+                // Jika mencapai frame TERAKHIR (sekarang Frame 5 Makan-makan)
                 if (currentIndex === cards.length - 1) {
                     setTimeout(() => {
-                        startConfetti(300); // Ledakan besar
+                        startConfetti(350); // Ledakan paling besar!
                     }, 400);
                 }
             }
